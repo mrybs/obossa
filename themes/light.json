@@ -1,0 +1,20 @@
+{
+  "id": "1",
+  "name": "Светлая тема",
+  "publisher": "Марк Радин",
+  "colors": {
+    "background": "#ffffff",
+    "whom": "#333436",
+    "when": "#808992",
+    "text": "#070504",
+    "button-lines": "#e0e0e0",
+    "button-publish": "#547bad",
+    "button-reject": "#e64c4c"
+  },
+  "files": {
+    "dot3": "1dot3.png",
+    "medium18": "Roboto-Medium.ttf",
+    "medium14": "Roboto-Medium.ttf",
+    "regular18": "Roboto-Regular.ttf"
+  }
+}

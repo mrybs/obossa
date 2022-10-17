@@ -1,0 +1,20 @@
+{
+  "id": "2",
+  "name": "Темная тема",
+  "publisher": "Марк Радин",
+  "colors": {
+    "background": "#222222",
+    "whom": "#c5c8cd",
+    "when": "#757678",
+    "text": "#dfe0e4",
+    "button-lines": "#3a3636",
+    "button-publish": "#e2e1e6",
+    "button-reject": "#f96060"
+  },
+  "files": {
+    "dot3": "2dot3.png",
+    "medium18": "Roboto-Medium.ttf",
+    "medium14": "Roboto-Medium.ttf",
+    "regular18": "Roboto-Regular.ttf"
+  }
+}
