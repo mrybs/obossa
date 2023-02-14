@@ -1,6 +1,13 @@
 {
   "themes": {
     "1": "light",
-    "2": "dark"
+    "2": "dark",
+    "3": "green-based",
+    "4": "violet-based",
+    "5": "yellow-based",
+    "6": "red-based",
+    "7": "light-lobster",
+    "8": "dark-lobster",
+    "9": "oled"
   }
 }

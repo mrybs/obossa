@@ -1,0 +1,20 @@
+{
+  "id": "9",
+  "name": "Черный OLED",
+  "publisher": "Марк Радин",
+  "colors": {
+    "background": "#000000",
+    "whom": "#ffffff",
+    "when": "#dddddd",
+    "text": "#ffffff",
+    "button-lines": "#3a3636",
+    "button-publish": "#ffffff",
+    "button-reject": "#dddddd"
+  },
+  "files": {
+    "dot3": "2dot3.png",
+    "medium18": "Roboto-Medium.ttf",
+    "medium14": "Roboto-Medium.ttf",
+    "regular18": "Roboto-Regular.ttf"
+  }
+}

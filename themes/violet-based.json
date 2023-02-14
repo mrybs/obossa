@@ -1,0 +1,20 @@
+{
+  "id": "4",
+  "name": "Фиолетовая тема",
+  "publisher": "Марк Радин",
+  "colors": {
+    "background": "#fff0ff",
+    "whom": "#333436",
+    "when": "#808992",
+    "text": "#330333",
+    "button-lines": "#e0e0e0",
+    "button-publish": "#330333",
+    "button-reject": "#333436"
+  },
+  "files": {
+    "dot3": "1dot3.png",
+    "medium18": "Roboto-Medium.ttf",
+    "medium14": "Roboto-Medium.ttf",
+    "regular18": "Roboto-Regular.ttf"
+  }
+}

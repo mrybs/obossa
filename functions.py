@@ -40,15 +40,16 @@ def makeshit(who: str, when: str, save_file: str, ava_file: str, text: str, dot3
     roboto_medium14 = ImageFont.truetype('Roboto-Medium.ttf', size=14 * aspect)
     if 'files' in list(theme) and theme['files']['medium18'] is not None:
         try:
-            roboto_medium18 = ImageFont.truetype('Roboto-Medium.ttf', size=18 * aspect)
+            roboto_medium18 = ImageFont.truetype('themes/files/'+theme['files']['medium18']
+                    , size=18 * aspect)
         except Exception: pass
     if 'files' in list(theme) and theme['files']['medium14'] is not None:
         try:
-            roboto_medium14 = ImageFont.truetype('Roboto-Medium.ttf', size=14 * aspect)
+            roboto_medium14 = ImageFont.truetype('themes/files/'+theme['files']['medium14'], size=14 * aspect)
         except Exception: pass
     if 'files' in list(theme) and theme['files']['regular18'] is not None:
         try:
-            roboto_regular18 = ImageFont.truetype('Roboto-Regular.ttf', size=18 * aspect)
+            roboto_regular18 = ImageFont.truetype('themes/files/'+theme['files']['regular18'], size=18 * aspect)
         except Exception: pass
 
     x = 576
