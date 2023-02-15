@@ -1,7 +1,7 @@
 {
-  "id": "miphli",
-  "name": "Тема Ларина",
-  "publisher": "Марк Радин",
+  "id": "0",
+  "name": "Default",
+  "publisher": "Obossa",
   "colors": {
     "background": "#222222",
     "whom": "#c5c8cd",
@@ -13,13 +13,13 @@
   },
   "files": {
     "dot3": "2dot3.png",
-    "medium18": "animeacev3.ttf",
-    "medium14": "animeacev3.ttf",
-    "regular18": "animeacev3.ttf"
+    "medium18": "Roboto-Medium.ttf",
+    "medium14": "Roboto-Medium.ttf",
+    "regular18": "Roboto-Regular.ttf"
   },
   "textgen": {
-	  "distance": 10.5,
-	  "maxline": 44,
-	  "y-aspect": 0.98
+    "distance": 6.5,
+    "maxline": 54,
+    "y-aspect": 1.04
   }
 }

@@ -18,6 +18,8 @@
     "regular18": "Lobster-Regular.ttf"
   },
   "textgen": {
-	  "distance": 5.5
+	  "distance": 5.5,
+      "maxline": 58,
+      "y-aspect": 1.01
   }
 }
