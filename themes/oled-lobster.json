@@ -1,15 +1,15 @@
 {
-  "id": "8",
-  "name": "Темный лобстер",
+  "id": "10",
+  "name": "OLED лобстер",
   "publisher": "Марк Радин",
   "colors": {
-    "background": "#222222",
-    "whom": "#c5c8cd",
-    "when": "#757678",
-    "text": "#dfe0e4",
+    "background": "#000000",
+    "whom": "#ffffff",
+    "when": "#dddddd",
+    "text": "#ffffff",
     "button-lines": "#3a3636",
-    "button-publish": "#e2e1e6",
-    "button-reject": "#f96060"
+    "button-publish": "#ffffff",
+    "button-reject": "#dddddd"
   },
   "files": {
     "dot3": "2dot3.png",
@@ -17,7 +17,7 @@
     "medium14": "Lobster-Regular.ttf",
     "regular18": "Lobster-Regular.ttf"
   },
-  "textgen": {
+  "textgen":{
 	  "distance": 5.5
   }
 }

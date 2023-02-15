@@ -16,5 +16,8 @@
     "medium18": "Lobster-Regular.ttf",
     "medium14": "Lobster-Regular.ttf",
     "regular18": "Lobster-Regular.ttf"
+  },
+  "textgen":{
+	  "distance": 5.5
   }
 }

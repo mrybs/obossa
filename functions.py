@@ -53,9 +53,15 @@ def makeshit(who: str, when: str, save_file: str, ava_file: str, text: str, dot3
         except Exception: pass
 
     x = 576
+    y = 1
+    if 'textgen' in list(theme) and theme['textgen']['y-aspect'] is not None:
+        y = theme['textgen']['y-aspect']
     a = 25.1
-
-    y = int(74.5 + 74.5 + len(wrap(text, 54)) * a)
+    if 'textgen' in list(theme) and theme['textgen']['maxline'] is not None:
+        y *= float(74.5 + 74.5 + len(wrap(text, theme['textgen']['maxline'])) * a)
+    else:
+        y *= float(74.5*2 + len(wrap(text, 54)))
+    y = int(y)
 
     if 'colors' in list(theme) and theme['colors']['background'] is not None:
         photo = Image.new('RGBA', (x * aspect, y * aspect), theme['colors']['background'])
@@ -80,19 +86,26 @@ def makeshit(who: str, when: str, save_file: str, ava_file: str, text: str, dot3
     else:
         Draw.text((90 * aspect, 45 * aspect), text=when, font=roboto_medium14, fill='#757678')
 
-    margin = 40
+    margin = 20
     offset = 40
-    distance = 10
-
-    text = '\n'.join(wrap(text, 54))
+    distance = 9.4
+    if 'textgen' in list(theme) and theme['textgen']['distance'] is not None:
+            distance = theme['textgen']['distance']
+    textc = ''
+    if 'textgen' in list(theme) and theme['textgen']['maxline'] is not None:
+        textc = '\n'.join(wrap(text, theme['textgen']['maxline']))
+    else:
+        textc = '\n'.join(wrap(text, 54))
+    text = textc
+    print(text)
     while '\n\n' in text:
         text = text.replace('\n\n', '\n')
 
     for line in text.split(sep='\n'):
         if 'colors' in list(theme) and theme['colors']['text'] is not None:
-            Draw.text((margin, (59 * aspect) + offset), line, font=roboto_regular18, fill=theme['colors']['text'])
+            Draw.text((margin*aspect, ((59+offset/2) * aspect)), line, font=roboto_regular18, fill=theme['colors']['text'])
         else:
-            Draw.text((margin, (59 * aspect) + offset), line, font=roboto_regular18, fill="#dfe0e4")
+            Draw.text((margin*aspect, ((59+offset/2) * aspect)), line, font=roboto_regular18, fill="#dfe0e4")
         offset += roboto_medium18.getsize(line)[1] + distance
 
     if 'colors' in list(theme) and theme['colors']['button-publish'] is not None:

@@ -1,6 +1,6 @@
 {
-  "id": "8",
-  "name": "Темный лобстер",
+  "id": "miphli",
+  "name": "Тема Ларина",
   "publisher": "Марк Радин",
   "colors": {
     "background": "#222222",
@@ -13,11 +13,13 @@
   },
   "files": {
     "dot3": "2dot3.png",
-    "medium18": "Lobster-Regular.ttf",
-    "medium14": "Lobster-Regular.ttf",
-    "regular18": "Lobster-Regular.ttf"
+    "medium18": "animeacev3.ttf",
+    "medium14": "animeacev3.ttf",
+    "regular18": "animeacev3.ttf"
   },
   "textgen": {
-	  "distance": 5.5
+	  "distance": 10.5,
+	  "maxline": 44,
+	  "y-aspect": 1
   }
 }
